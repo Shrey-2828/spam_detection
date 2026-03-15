@@ -1,10 +1,10 @@
 
 import streamlit as st
-import pickle
+import joblib
 
-load_model=pickle.load(open('model.sav','rb'))
+load_model=joblib.load(open('model.sav','rb'))
 
-loder_vec=pickle.load(open('vectorizer.pkl','rb'))
+loder_vec=joblib.load(open('vectorizer.pkl','rb'))
 
 def spam_detect(message):
 
