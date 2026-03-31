@@ -1,8 +1,8 @@
 import streamlit as st
 import joblib
 
-load_model=joblib.load('model.sav','rb')
-loder_vec=joblib.load('vectorizer.pkl','rb')
+load_model=joblib.load('model.sav')
+loder_vec=joblib.load('vectorizer.pkl')
 
 def spam_detect(message):
 
