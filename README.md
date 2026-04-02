@@ -45,8 +45,6 @@ Unlike typical NLP pipelines, this project intentionally:
 
 **✅ Accuracy: 98.92%**
 
-This demonstrates the surprising effectiveness of **Multinomial Naive Bayes** for text classification tasks.
-
 ---
 
 ## 🧠 Model Details
@@ -54,6 +52,15 @@ This demonstrates the surprising effectiveness of **Multinomial Naive Bayes** fo
 * **Algorithm:** Multinomial Naive Bayes
 * **Feature Extraction:** Count Vectorizer
 * **Accuracy:** 98.92%
+
+---
+
+## 🌐 Live Demo
+
+🚀 Try the deployed app here:
+👉 **https://spamdetection-shrey18.streamlit.app/**
+
+*(Replace this link with your actual deployed app URL from Streamlit Cloud / Render)*
 
 ---
 
@@ -108,8 +115,9 @@ streamlit run app.py
 ```
 spam-detector/
 │
+├── NaiveBayes.ipynb
 ├── app.py
-├── model.pkl
+├── model.sav
 ├── vectorizer.pkl
 ├── spam.csv
 ├── requirements.txt
@@ -145,26 +153,20 @@ Spam
 
 ## 📈 Key Takeaway
 
-This project shows that:
-
-> Even with **imbalanced data** and **minimal NLP preprocessing**,
-> **Naive Bayes can still deliver strong performance** in text classification tasks.
+> Even with **imbalanced data** and **minimal preprocessing**,
+> **Naive Bayes still performs surprisingly well** for spam detection.
 
 ---
 
-## 🌐 Deployment
+## 🤝 Contributing
 
-Can be deployed on:
-
-* Streamlit Cloud
-* Render
-* Railway
+This is an experimental project, but suggestions are welcome!
 
 ---
 
 ## 👨‍💻 Author
 
-Developed by **Shrey**
+Developed by **Shrey Patel**
 
 ---
 
