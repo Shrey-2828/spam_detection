@@ -111,7 +111,7 @@ spam-detector/
 ├── app.py
 ├── model.pkl
 ├── vectorizer.pkl
-├── dataset.csv
+├── spam.csv
 ├── requirements.txt
 └── README.md
 ```
@@ -162,21 +162,9 @@ Can be deployed on:
 
 ---
 
-## 🤝 Contributing
-
-This is an experimental project, but suggestions and improvements are welcome!
-
----
-
-## 📜 License
-
-MIT License
-
----
-
 ## 👨‍💻 Author
 
-Developed by **Your Name**
+Developed by **Shrey**
 
 ---
 
