@@ -60,8 +60,6 @@ Unlike typical NLP pipelines, this project intentionally:
 🚀 Try the deployed app here:
 👉 **https://spamdetection-shrey18.streamlit.app/**
 
-*(Replace this link with your actual deployed app URL from Streamlit Cloud / Render)*
-
 ---
 
 ## ⚙️ Technologies & Libraries Used
