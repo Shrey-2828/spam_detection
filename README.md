@@ -124,15 +124,6 @@ spam-detector/
 
 ---
 
-## 📌 Features
-
-* Simple and lightweight model
-* Works well even on imbalanced dataset
-* Minimal preprocessing required
-* Interactive UI using Streamlit
-
----
-
 ## 🧪 Example
 
 **Input:**
@@ -153,12 +144,6 @@ Spam
 
 > Even with **imbalanced data** and **minimal preprocessing**,
 > **Naive Bayes still performs surprisingly well** for spam detection.
-
----
-
-## 🤝 Contributing
-
-This is an experimental project, but suggestions are welcome!
 
 ---
 
